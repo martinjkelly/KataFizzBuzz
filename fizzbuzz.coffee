@@ -10,6 +10,8 @@ checkForFizzBuzz = (x) ->
   else
     return x
 
+for num in [1..100]
+  console.log(checkForFizzBuzz(num))
 describe 'checkForFizzBuzz()', ->
   describe '#checkForFizzBuzz()', ->
     it 'should return the number if it isnt a multiple of 3', ->
